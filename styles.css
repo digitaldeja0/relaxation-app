@@ -15,10 +15,6 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 
-.mainH1{
-    border: 1px solid rgb(36, 36, 36);
-}
-
 .container{
     display: flex;
     align-items: center;
@@ -47,10 +43,6 @@ body{
     left: 0;
     z-index: -1;
     border-radius: 50%;
-}
-
-.circleText{
-    border: 1px solid rgb(36, 36, 36);
 }
 
 .pointerContainer{
@@ -121,3 +113,31 @@ body{
 }
   
    
+/* Media Queries */
+
+@media screen and (max-width: 370px) {
+    .container{
+        height: 200px;
+        width: 200px;
+    }
+    .gradientCircle{
+
+        height: 220px;
+        width: 220px;
+
+  }
+
+  .pointerContainer{
+
+    top:-25px;
+    left:45px;
+    width: 120px;
+    height: 120px;
+  
+}
+
+.pointer{
+    height: 10px;
+    width:10px ;
+}
+}
