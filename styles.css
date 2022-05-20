@@ -5,3 +5,30 @@ body{
     margin: 0;
     min-height: 100vh;
 }
+
+.mainH1{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+.container{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+.circleDiv{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+.circleText{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+.pointerContainer{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+.gradientCircle{
+    border: 1px solid rgb(36, 36, 36);
+}
+
+  
+   
